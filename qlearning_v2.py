@@ -408,7 +408,7 @@ if __name__ == '__main__':
         for s in ALL_POSSIBLE_STATES:
             for a in ALL_POSSIBLE_ACTIONS:
                 print("s: {0}, a_ptx: {1}, a_aoa: {2}, ptx: {3}, AoA: {4}, AoD: {5}, Q: {6}".format(s,a[0], a[1], mimo.P_tx, mimo.AoA, mimo.AoD, Q[s][a]))
-        #break
+    
         '''
     print(snr_lst)
     print("Min: {0}, Max: {1}".format(min(snr_lst), max(snr_lst)))
